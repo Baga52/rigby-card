@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* чтобы прижать подвал */
+html, body{ 
+  height: 100%;
+  min-height: 100%;
+}
+
+
+body{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  background-color: rgb(42, 43, 42);
+  color: rgb(168, 69, 12);
+}
+
+.card-img{
+  border: 2px solid black; 
+}
